@@ -1,0 +1,70 @@
+.section-title {
+  text-align: center;
+}
+.section-title h1 {
+  font-size: 50px;
+}
+
+.section-title h1::before,
+.section-title h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.3rem solid black;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.section-title p {
+  color: #bbb;
+}
+
+/* ABOUT US */
+.about-us {
+  display: flex;
+}
+
+.about-us-img {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 350px;
+  margin: 12px;
+}
+.about-us-img img {
+  height: 350px;
+}
+
+.about-us p {
+  letter-spacing: 1px;
+}
+
+.about-us-description {
+  padding-left: 8px;
+}
+
+.our-service {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service {
+  width: 350px;
+  height: 500px;
+  color: #1d2129;
+  text-align: center;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.service-branding {
+  height: 250px;
+  background-color: #003c2b;
+}
+
+.service-description {
+  height: 250px;
+  background-color: #fff;
+  padding: 8px;
+  font-size: 24px;
+}
+
+.service-description p {
+  margin: 0;
+}
